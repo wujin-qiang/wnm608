@@ -1,0 +1,64 @@
+/* .zoom {
+  display: inline-block;
+}
+
+.main-image {
+  position: relative;
+}
+
+.main-image {
+  width: 600px;
+  height: 400px;
+}
+
+.zoomed-image {
+  width: 600px;
+  height: 400px;
+  background-size: calc(600px * 4);
+  background-position: 0 0;
+}
+
+.zoomer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100px;
+  border: 1px solid white;
+  pointer-events: none;
+} */
+
+#smallBox {
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+
+#smallBox img {
+  width: 600px;
+  height: 400px;
+}
+
+#bigBox {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  overflow: hidden;
+  display: none;
+}
+
+#bigBox img {
+  width: 1200px;
+  height: 800px;
+}
+#zoom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 200px;
+  /* background-color: red; */
+  border: 1px solid #fff;
+  /* opacity: 0.2; */
+  cursor: move;
+}
